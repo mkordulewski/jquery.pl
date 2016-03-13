@@ -301,10 +301,7 @@
                                 </td>
 
                                 <td class="code">
-                                    <pre><div class="container">
-                                        <div class="line"><code>$( <span class="string">"button.continue"</span> ).html(
-                                            <span class="string">"Next Step..."</span> )</code></div>
-                                    </div></pre>
+                                    <pre><div class="container"><div class="line"><code>$( <span class="string">"button.continue"</span> ).html( <span class="string">"Next Step..."</span> )</code></div></div></pre>
                                 </td>
                             </tr>
                             </tbody>
@@ -336,19 +333,7 @@
                                 </td>
 
                                 <td class="code">
-                                    <pre><div class="container">
-                                        <div class="line"><code><span class="keyword">var</span> hiddenBox = $( <span
-                                                class="string">"#banner-message"</span> );</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code>$( <span
-                                                class="string">"#button-container button"</span> ).on( <span
-                                                class="string">"click"</span>, <span class="keyword">function</span>(
-                                            event ) {</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> hiddenBox.show();</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code>});</code></div>
-                                    </div></pre>
+                                    <pre><div class="container"><div class="line"><code><span class="keyword">var</span> hiddenBox = $( <span class="string">"#banner-message"</span> );</code></div></div><div class="container"><div class="line"><code>$( <span class="string">"#button-container button"</span> ).on( <span class="string">"click"</span>, <span class="keyword">function</span>( event ) {</code></div></div><div class="container"><div class="line"><code>  hiddenBox.show();</code></div></div><div class="container"><div class="line"><code>});</code></div></div></pre>
                                 </td>
                             </tr>
                             </tbody>
@@ -390,29 +375,7 @@
                                 </td>
 
                                 <td class="code">
-                                    <pre><div class="container">
-                                        <div class="line"><code>$.ajax({</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> url: <span
-                                                class="string">"/api/getWeather"</span>,</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> data: {</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> zipcode: <span class="number">97201</span></code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> },</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> success: <span class="keyword">function</span>( data )
-                                            {</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> $( <span class="string">"#weather-temp"</span> ).html(
-                                            <span class="string">"&lt;strong&gt;"</span> + data + <span class="string">"&lt;/strong&gt; degrees"</span>
-                                            );</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code> }</code></div>
-                                    </div><div class="container">
-                                        <div class="line"><code>});</code></div>
-                                    </div></pre>
+                                    <pre><div class="container"><div class="line"><code>$.ajax({</code></div></div><div class="container"><div class="line"><code>  url: <span class="string">"/api/getWeather"</span>,</code></div></div><div class="container"><div class="line"><code>  data: {</code></div></div><div class="container"><div class="line"><code>    zipcode: <span class="number">97201</span></code></div></div><div class="container"><div class="line"><code>  },</code></div></div><div class="container"><div class="line"><code>  success: <span class="keyword">function</span>( data ) {</code></div></div><div class="container"><div class="line"><code>    $( <span class="string">"#weather-temp"</span> ).html( <span class="string">"&lt;strong&gt;"</span> + data + <span class="string">"&lt;/strong&gt; degrees"</span> );</code></div></div><div class="container"><div class="line"><code>  }</code></div></div><div class="container"><div class="line"><code>});</code></div></div></pre>
                                 </td>
                             </tr>
                             </tbody>
