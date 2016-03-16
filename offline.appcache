@@ -5,6 +5,7 @@ CACHE:
 /index.html
 /static/css/base.css
 /static/css/style.css
+/static/css/addons.css
 /static/fonts/fontawesome-webfont.eot
 /static/fonts/fontawesome-webfont.ttf
 /static/fonts/fontawesome-webfont.woff
